@@ -1,0 +1,13 @@
+{
+  "name": "class-01",
+  "version": "1.0.0",
+  "description": "Streams is used to handle files on demand. This process helps us with downloading, compression, etc.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rfontt",
+  "license": "ISC"
+}
