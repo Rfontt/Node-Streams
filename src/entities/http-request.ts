@@ -8,7 +8,7 @@ export default class HttpRequest {
             const request = https.request(options, (response) => {
                 response.setEncoding('utf8');
 
-                let data = '';
+                let data: string = '';
             
                 response.on('data', (chunk) => {
                     data += chunk;
@@ -19,7 +19,7 @@ export default class HttpRequest {
                 });
         
                 response.on('error', (error) => {
-                    throw error;
+                    reject(error);
                 });
             });
             
